@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<HTML lang ="en">
+
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <title>The Sparks Foundation</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="">
+                <img src="logo.png" width="30" height="30" alt="logo">
+            </a>
+            <a class="navbar-brand" href="https://www.thesparksfoundationsingapore.org">The Sparks Foundation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <h2>
+            <strong>Smiles For Life funding
+        </h2>
+        <br>
+        <br>
+        <div class="container">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="download1.jpg" height="350">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="download2.jpg" height="350">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="download3.jpg" height="350">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="download4.jpg" height="350">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="download6.jpg" height="350">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="image-4.jpg" height="350">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="image-5.jpg" height="350">
+                            </div>
+                            <div class="mySlides fade">
+                                <img class="card-img-top" src="oxygen-1.jpg" height="350">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h4>Join the fight against COVID!</h4><br>
+                            <h4>Helping those in need is not charity, it's humanity.</h4>
+                            <br><br>
+                        </div>
+                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_Ha6EjbARMnSnHK" async> </script> </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+    
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 1500);
+            }
+        </script>
+        <footer>
+            <p>Created By VIKAS CHITTEM</p>
+        </footer>
+    </body>
+</HTML>
